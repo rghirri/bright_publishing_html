@@ -1,0 +1,25 @@
+{
+  "name": "brightpublishing_html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rghirri/bright_publishing_html.git"
+  },
+  "author": "Rayaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rghirri/bright_publishing_html/issues"
+  },
+  "homepage": "https://github.com/rghirri/bright_publishing_html#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
